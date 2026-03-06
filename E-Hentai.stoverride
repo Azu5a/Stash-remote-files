@@ -1,0 +1,5 @@
+name: 'E-Hentai proxy group'
+proxy-groups:
+ - type: 'select'
+   name: 'E-Hentai'
+   include-all-proxies: true
