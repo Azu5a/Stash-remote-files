@@ -3,3 +3,8 @@ proxy-groups:
   - include-all: true
     name: "E-Hentai"
     type: select
+rules:
+    - 'DOMAIN-SUFFIX,ehgt.org,E-Hentai'
+    - 'DOMAIN-SUFFIX,e-hentai.org,E-Hentai'
+    - 'DOMAIN-SUFFIX,exhentai.org,E-Hentai'
+    - 'DOMAIN-SUFFIX,hath.network,E-Hentai'
