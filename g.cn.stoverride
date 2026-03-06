@@ -3,4 +3,4 @@ http:
     - ".g.cn"
     - "*.google.cn"
   rewrite:
-    - ^https?://(www\.)?(g|google)\.cn https://www.google.com transparent
+    - ^https?://(www\.)?(g|google)\.cn https://www.google.com 302
