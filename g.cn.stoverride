@@ -1,4 +1,5 @@
 [URL Rewrite]
 ^https?://(www\.)?(g|google)\.cn https://www.google.com transparent
+
 [MITM]
 hostname = *.google.cn, *.g.cn
