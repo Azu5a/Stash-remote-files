@@ -1,0 +1,3 @@
+name: log disabler
+desc: 关闭日志功能
+log-level: silent
