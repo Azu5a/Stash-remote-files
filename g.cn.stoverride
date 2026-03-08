@@ -1,7 +1,8 @@
-name: 'g.cn rewrite'
+name: g.cn rewriter
+desc: 跳过大陆地区safari谷歌搜索跳转页
 http:
   mitm:
-    - ".g.cn"
-    - "*.google.cn"
+    - '*.g.cn'
+    - '*.google.cn'
   rewrite:
     - ^https?://(www\.)?(g|google)\.cn https://www.google.com 302
