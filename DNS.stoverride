@@ -1,4 +1,5 @@
-name: 'DNS replacer'
+name: DNS replacer
+desc: DNS 覆写
 dns: #!replace
   default-nameserver:
     - 119.29.29.29
