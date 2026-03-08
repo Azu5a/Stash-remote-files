@@ -1,8 +1,10 @@
-name: 'E-Hentai proxy group'
+name: E-Hentai proxy group
+desc: 添加E-Hentai策略组
 proxy-groups:
-  - include-all: true
-    name: "E-Hentai"
-    type: select
+  - type: 'select'
+    name: 'E-Hentai'
+    icon: 'https://e-hentai.org/favicon.ico'
+    include-all: true
 rules:
     - 'DOMAIN-SUFFIX,ehgt.org,E-Hentai'
     - 'DOMAIN-SUFFIX,e-hentai.org,E-Hentai'
