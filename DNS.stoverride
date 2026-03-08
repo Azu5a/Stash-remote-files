@@ -1,0 +1,11 @@
+name: 'DNS replacer'
+dns: #!replace
+  default-nameserver:
+    - 119.29.29.29
+    - 2400:3200::1
+  nameserver:
+    - https://doh.pub/dns-query
+    - https://dns.alidns.com/dns-query
+    - 119.29.29.29
+  skip-cert-verify: true
+  follow-rule: false
