@@ -1,0 +1,9 @@
+name: TikTok proxy group
+desc: 添加TikTok策略组
+proxy-groups:
+  - type: 'select'
+    name: 'E-Hentai'
+    include-all: true
+rules:
+    - 'DOMAIN-KEYWORD,tiktok,TikTok'
+    - 'DOMAIN-SUFFIX,ttwstatic.com,TikTok'
