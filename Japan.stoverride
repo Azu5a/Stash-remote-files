@@ -1,11 +1,11 @@
 name: Japan proxy group
 desc: 添加日本网站策略组
 proxy-groups:
-  - type: 'select'
-    name: 'Japan'
-    filter: 'Japan'
-    include-all: true
+  - name: 'Japan'
+    type: 'select'
     icon: 'https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Flags/JP.png'
+    include-all: true
+    filter: 'Japan'
 rules:
     - 'DOMAIN-SUFFIX,dlsite.com,Japan'
     - 'DOMAIN-SUFFIX,octopuspop.com,Japan'
