@@ -1,0 +1,10 @@
+name: Emby proxy group
+desc: 添加ykkcloud-media server策略组
+proxy-groups:
+  - name: 'Emby'
+    type: 'select'
+    icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/emby.png'
+    include-all: true
+rules:
+    - 'DOMAIN-SUFFIX,emby.moe,Emby'
+    - 'DOMAIN-SUFFIX,xxlb.net,Emby'
