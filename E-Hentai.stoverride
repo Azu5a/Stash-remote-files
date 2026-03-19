@@ -1,8 +1,8 @@
 name: E-Hentai proxy group
 desc: 添加E-Hentai策略组
 proxy-groups:
-  - type: 'select'
-    name: 'E-Hentai'
+  - name: 'E-Hentai'
+    type: 'select'
     icon: 'https://e-hentai.org/favicon.ico'
     include-all: true
 rules:
