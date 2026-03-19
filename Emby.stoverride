@@ -1,5 +1,5 @@
 name: Emby proxy group
-desc: 添加ykkcloud-media server策略组
+desc: 添加ykk云媒体服务策略组
 proxy-groups:
   - name: 'Emby'
     type: 'select'
