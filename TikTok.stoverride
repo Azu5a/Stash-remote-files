@@ -3,7 +3,7 @@ desc: 添加TikTok策略组
 proxy-groups:
   - name: 'TikTok'
     type: 'select'
-    icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/tiktok.png'
+    icon: 'https://raw.githubusercontent.com/Azu5a/Stash-remote-files/main/icon/TikTok.png'
     include-all: true
 rules:
     - 'DOMAIN-KEYWORD,tiktok,TikTok'
