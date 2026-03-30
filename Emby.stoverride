@@ -6,5 +6,10 @@ proxy-groups:
     icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/emby.png'
     include-all: true
 rules:
+    - 'DOMAIN-SUFFIX,mega.io,Emby'
+    - 'DOMAIN-SUFFIX,mega.nz,Emby'
+    - 'DOMAIN-SUFFIX,mega.co.nz,Emby'
     - 'DOMAIN-SUFFIX,emby.moe,Emby'
     - 'DOMAIN-SUFFIX,xxlb.net,Emby'
+    - 'DOMAIN-SUFFIX,iwara.tv,Emby'
+    - 'DOMAIN-SUFFIX,iwara.zip,Emby'
