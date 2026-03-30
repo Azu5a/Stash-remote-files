@@ -6,5 +6,6 @@ proxy-groups:
     icon: 'https://raw.githubusercontent.com/Azu5a/Stash-remote-files/main/icon/TikTok.png'
     include-all: true
 rules:
-    - 'DOMAIN-KEYWORD,tiktok,TikTok'
+    - 'DOMAIN-SUFFIX,chatgpt.com,TikTok'
     - 'DOMAIN-SUFFIX,ttwstatic.com,TikTok'
+    - 'DOMAIN-KEYWORD,tiktok,TikTok'
