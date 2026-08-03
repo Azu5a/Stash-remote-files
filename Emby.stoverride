@@ -1,30 +1,12 @@
 name: Emby proxy group
-desc: 添加大流量媒体服务策略组
+desc: 添加YKKCLOUD-Emby媒体服务策略组
 proxy-groups:
   - name: 'Emby'
     type: 'select'
     icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/emby.png'
     proxies:
+      - DIRECT
       - Telegram
 rules:
-    - 'DOMAIN-SUFFIX,asmr.one,Emby'
-    - 'DOMAIN-SUFFIX,kiko-play-niptan.one,Emby'
-    - 'DOMAIN-SUFFIX,hanime1.me,Emby'
-    - 'DOMAIN-SUFFIX,hembed.com,Emby'
-    - 'DOMAIN-SUFFIX,mega.io,Emby'
-    - 'DOMAIN-SUFFIX,mega.nz,Emby'
-    - 'DOMAIN-SUFFIX,mega.co.nz,Emby'
     - 'DOMAIN-SUFFIX,emby.moe,Emby'
     - 'DOMAIN-SUFFIX,xxlb.net,Emby'
-    - 'DOMAIN-SUFFIX,iwara.tv,Emby'
-    - 'DOMAIN-SUFFIX,iwara.zip,Emby'
-    - 'DOMAIN-SUFFIX,twitch.tv,Emby'
-    - 'DOMAIN-SUFFIX,jtvnw.net,Emby'
-    - 'DOMAIN-SUFFIX,ttvnw.net,Emby'
-    - 'DOMAIN,yt3.ggpht.com,Emby'
-    - 'DOMAIN-KEYWORD,youtube,Emby'
-    - 'DOMAIN-SUFFIX,yt.be,Emby'
-    - 'DOMAIN-SUFFIX,youtu.be,Emby'
-    - 'DOMAIN-SUFFIX,gvt2.com,Emby'
-    - 'DOMAIN-SUFFIX,ytimg.com,Emby'
-    - 'DOMAIN-SUFFIX,googlevideo.com,Emby'
