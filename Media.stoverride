@@ -1,0 +1,30 @@
+name: Media proxy group
+desc: 添加大流量站点策略组
+proxy-groups:
+  - name: 'Media'
+    type: 'select'
+    icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/emby.png'
+    proxies:
+      - Telegram
+rules:
+    - 'DOMAIN-SUFFIX,asmr.one,Media'
+    - 'DOMAIN-SUFFIX,kiko-play-niptan.one,Media'
+    - 'DOMAIN-SUFFIX,hanime1.me,Media'
+    - 'DOMAIN-SUFFIX,hembed.com,Media'
+    - 'DOMAIN-SUFFIX,mega.io,Media'
+    - 'DOMAIN-SUFFIX,mega.nz,Media'
+    - 'DOMAIN-SUFFIX,mega.co.nz,Media'
+    - 'DOMAIN-SUFFIX,mypikpak.com,Media'
+    - 'DOMAIN-SUFFIX,workupload.com,Media'
+    - 'DOMAIN-SUFFIX,iwara.tv,Media'
+    - 'DOMAIN-SUFFIX,iwara.zip,Media'
+    - 'DOMAIN-SUFFIX,twitch.tv,Media'
+    - 'DOMAIN-SUFFIX,jtvnw.net,Media'
+    - 'DOMAIN-SUFFIX,ttvnw.net,Media'
+    - 'DOMAIN,yt3.ggpht.com,Media'
+    - 'DOMAIN-KEYWORD,youtube,Media'
+    - 'DOMAIN-SUFFIX,yt.be,Media'
+    - 'DOMAIN-SUFFIX,youtu.be,Media'
+    - 'DOMAIN-SUFFIX,gvt2.com,Media'
+    - 'DOMAIN-SUFFIX,ytimg.com,Media'
+    - 'DOMAIN-SUFFIX,googlevideo.com,Media'
