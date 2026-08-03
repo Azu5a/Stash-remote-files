@@ -4,6 +4,8 @@ proxy-groups:
   - name: 'Emby'
     type: 'select'
     icon: 'https://cdn.jsdelivr.net/gh/homarr-labs/dashboard-icons/png/emby.png'
+    proxies:
+      - 'Telegram'
     include-all: true
 rules:
     - 'DOMAIN-SUFFIX,asmr.one,Emby'
