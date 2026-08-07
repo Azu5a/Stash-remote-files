@@ -7,5 +7,4 @@ proxy-groups:
     include-all: true
     filter: 'Japan'
 rules:
-    - 'DOMAIN-SUFFIX,dlsite.com,Japan'
-    - 'DOMAIN-SUFFIX,octopuspop.com,Japan'
+    - 'GEOSITE,dlsite,JP'
