@@ -3,7 +3,7 @@ desc: 添加可以直连的域名
 rules:
     - 'GEOSITE,amd,DIRECT'
     - 'GEOSITE,curseforge,DIRECT'
-    - 'DOMAIN-SUFFIX,ping0.cc,DIRECT'
+    - 'DOMAIN,steamdb.info,DIRECT'
     - 'DOMAIN-SUFFIX,lzacg.one,DIRECT'
     - 'DOMAIN-SUFFIX,gofile.io,DIRECT'
     - 'DOMAIN-SUFFIX,kemono.cr,DIRECT'
