@@ -6,5 +6,4 @@ rules:
     - 'DOMAIN,steamdb.info,DIRECT'
     - 'DOMAIN-SUFFIX,lzacg.one,DIRECT'
     - 'DOMAIN-SUFFIX,gofile.io,DIRECT'
-    - 'DOMAIN-SUFFIX,kemono.cr,DIRECT'
     - 'DOMAIN-SUFFIX,dogfight360.com,DIRECT'
