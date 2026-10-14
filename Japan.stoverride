@@ -5,7 +5,7 @@ proxy-groups:
     type: 'select'
     icon: 'https://raw.githubusercontent.com/HotKids/Rules/master/Quantumult/X/Images/Flags/JP.png'
     include-all: true
-    filter: 'Japan'
+    filter: '(?i)(日本|JP|Japan)'
 rules:
     - 'DOMAIN-SUFFIX,jp,Japan'
     - 'GEOSITE,pixiv,Japan'
