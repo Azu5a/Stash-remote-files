@@ -1,11 +1,10 @@
 name: DNS replacer
 desc: DNS 覆写
-dns: #!replace
-  default-nameserver:
+dns:
+  default-nameserver: #!replace
     - 119.29.29.29
     - 2400:3200::1
-  nameserver:
+  nameserver: #!replace
     - 119.29.29.29
     - 2400:3200::1
-  skip-cert-verify: true
   follow-rule: false
