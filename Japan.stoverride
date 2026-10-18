@@ -8,5 +8,4 @@ proxy-groups:
     filter: '(?i)(日本|JP|Japan)'
 rules:
     - 'DOMAIN-SUFFIX,jp,Japan'
-    - 'GEOSITE,pixiv,Japan'
     - 'GEOSITE,dlsite,Japan'
