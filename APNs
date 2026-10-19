@@ -1,0 +1,14 @@
+name: APNs proxy group
+desc: 添加苹果推送服务策略组
+proxy-groups:
+  - name: 'APNs'
+    type: 'select'
+    include-all: true
+rules:
+  - 'RULE-SET,Apple-Push,APNs'
+rule-providers:
+  Apple-Push:
+    behavior: classical
+    format: yaml
+    url: https://fastly.jsdelivr.net/gh/dler-io/Rules@main/Clash/Provider/Apple%20Push.yaml
+    interval: 86400
