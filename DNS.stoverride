@@ -7,4 +7,10 @@ dns:
   nameserver: #!replace
     - 119.29.29.29
     - 2400:3200::1
+  proxy-server-nameserver: #!replace
+    - 119.29.29.29
+    - 2400:3200::1
+  direct-nameserver: #!replace
+    - 119.29.29.29
+    - 2400:3200::1
   follow-rule: false
