@@ -8,5 +8,5 @@ proxy-groups:
       - DIRECT
       - Telegram
 rules:
-    - 'DOMAIN-SUFFIX,emby.moe,Emby'
-    - 'DOMAIN-SUFFIX,xxlb.net,Emby'
+  - 'DOMAIN-SUFFIX,emby.moe,Emby'
+  - 'DOMAIN-SUFFIX,xxlb.net,Emby'
