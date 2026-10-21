@@ -7,5 +7,5 @@ proxy-groups:
     include-all: true
     filter: '(?i)(日本|JP|Japan)'
 rules:
-    - 'DOMAIN-SUFFIX,jp,Japan'
-    - 'GEOSITE,dlsite,Japan'
+  - 'DOMAIN-SUFFIX,jp,Japan'
+  - 'GEOSITE,dlsite,Japan'
