@@ -1,9 +1,10 @@
 name: Direct
 desc: 添加可以直连的域名
 rules:
-    - 'GEOSITE,amd,DIRECT'
-    - 'GEOSITE,curseforge,DIRECT'
-    - 'DOMAIN,steamdb.info,DIRECT'
-    - 'DOMAIN-SUFFIX,lzacg.one,DIRECT'
-    - 'DOMAIN-SUFFIX,gofile.io,DIRECT'
-    - 'DOMAIN-SUFFIX,dogfight360.com,DIRECT'
+  - 'GEOSITE,amd,DIRECT'
+  - 'GEOSITE,curseforge,DIRECT'
+  - 'DOMAIN,steamdb.info,DIRECT'
+  - 'DOMAIN-SUFFIX,ykkk.best,DIRECT'
+  - 'DOMAIN-SUFFIX,lzacg.one,DIRECT'
+  - 'DOMAIN-SUFFIX,pawchive.pw,DIRECT'
+  - 'DOMAIN-SUFFIX,dogfight360.com,DIRECT'
